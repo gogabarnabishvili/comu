@@ -1,0 +1,145 @@
+section {
+    width: 1440px;
+    height: 716px;
+    background-color: #e8d9b0;
+    border-bottom-right-radius: 26%;
+    border-bottom-left-radius: 26%;
+    box-shadow: 1px 7px 8px 5px #4c4942;
+    margin: 0 auto;
+    padding-top: 44px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+
+.li_border {
+    width: 118px;
+    height: 30px;
+    border: 3px solid #FE9563;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.background_img {
+    background-image: url(../img/background_map.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: 110px;
+    position: relative;
+}
+
+.tree {
+    position: absolute;
+    right: 390px;
+    bottom: -200px;
+}
+
+.man_png {
+    position: absolute;
+    left: 113px;
+    bottom: -14px;
+}
+
+.facebook {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: blue;
+    padding: 5px 19px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+
+.tiktok {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(14, 14, 17);
+    padding: 8px 19px;
+    position: absolute;
+    top: 105px;
+    left: 193px;
+}
+
+.email {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(201 46 32);
+    padding: 12px 13px;
+    position: absolute;
+    top: 164px;
+    left: 129px;
+}
+
+.linkdin {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 93);
+    padding: 8px 12px;
+    position: absolute;
+    top: 54px;
+    left: 110px;
+}
+
+.twiter {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(56 56 255);
+    padding: 14px 13px;
+    position: absolute;
+    top: 22px;
+    left: 164px;
+}
+
+.map {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 93);
+    padding: 8px 12px;
+    position: absolute;
+    top: 195px;
+    left: 181px;
+}
+
+.phone {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(14 214 103);
+    padding: 8px 9px;
+    position: absolute;
+    top: 123px;
+    left: 256px;
+}
