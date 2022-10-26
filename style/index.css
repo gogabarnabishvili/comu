@@ -1,10 +1,14 @@
-section {
+body {
+    background-color: F5F5F5;
+}
+
+.header_section {
     width: 1440px;
     height: 716px;
     background-color: #e8d9b0;
     border-bottom-right-radius: 26%;
     border-bottom-left-radius: 26%;
-    box-shadow: 1px 7px 8px 5px #4c4942;
+    box-shadow: 3px 7px 8px 4px #775a15;
     margin: 0 auto;
     padding-top: 44px;
 }
@@ -21,17 +25,17 @@ nav {
     justify-content: space-around;
 }
 
-nav ul {
+.nav_ul {
     display: flex;
     align-items: center;
 }
 
-nav li {
+.nav_li {
     margin-left: 30px;
     font-size: 14px;
 }
 
-nav a {
+.nav_li a {
     font-size: 14px;
     font-weight: bold;
     color: black;
@@ -46,9 +50,27 @@ nav a {
     padding: 5px 20px;
 }
 
+
+/* .downmaneu {
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.downmaneu li {
+    margin-top: 15px;
+    width: 100%;
+    height: 0px;
+}
+
+nav li:hover .downmaneu {
+    opacity: 1;
+    visibility: visible;
+} */
+
 .background_img {
     background-image: url(../img/background_map.png);
-    width: 100%;
+    width: 1350px;
     height: 100%;
     background-repeat: no-repeat;
     margin: 110px;
@@ -57,8 +79,9 @@ nav a {
 
 .tree {
     position: absolute;
-    right: 390px;
-    bottom: -200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .man_png {
@@ -82,11 +105,10 @@ nav a {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: rgb(14, 14, 17);
     padding: 8px 19px;
     position: absolute;
-    top: 105px;
-    left: 193px;
+    top: 92px;
+    left: 169px;
 }
 
 .email {
@@ -142,4 +164,187 @@ nav a {
     position: absolute;
     top: 123px;
     left: 256px;
+}
+
+
+/* section 2 */
+
+.section_2 {
+    width: 1200px;
+    margin: 72px auto;
+}
+
+.smoll_3_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.smoll_box {
+    width: 363px;
+    height: 279px;
+    background-color: #F5F2EB;
+    border-radius: 44px;
+    box-shadow: 3px 7px 8px 4px #775a15;
+    padding: 48px;
+}
+
+.smoll_box img {
+    margin: 0 auto;
+    display: flex;
+    width: 76px;
+}
+
+.smoll_box h3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 24px auto;
+    width: 123px;
+}
+
+.smoll_box p {
+    font-size: 17px;
+    width: 230px;
+    color: #535359;
+    text-align: center;
+}
+
+
+/* section 2 footer */
+
+.section_2_footer {
+    width: 1050px;
+    margin-top: 133px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_2_footer div {
+    width: 457px;
+    margin-top: 30px;
+}
+
+.section_2_footer h3 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #455A64;
+    text-align: center;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.section_2_footer p {
+    font-size: 17px;
+    color: #535359;
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+
+/* section 3 */
+
+.section_3 {
+    width: 1213px;
+    height: 791px;
+    background-color: #e8d9b0;
+    box-shadow: 3px 7px 8px 4px #775a15;
+    margin: 0 auto;
+    border-radius: 48px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text_3box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_box {
+    width: 389px;
+    height: 132px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text_box img {
+    width: 56px;
+}
+
+.section_3 h3 {
+    font-size: 17px;
+    font-weight: bold;
+    width: 219px;
+}
+
+.section_3 p {
+    width: 319px;
+    font-size: 17px;
+    color: #535359;
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.big_img {
+    width: 524px;
+    height: 521px;
+}
+
+
+/* section 4 */
+
+.section_4 {
+    width: 1213px;
+    margin: 113px auto;
+}
+
+.header_4 {
+    width: 627px;
+    height: 123px;
+    margin: 0 auto;
+}
+
+.header_4 h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header_4 p {
+    font-size: 16px;
+    color: #393939;
+    line-height: 25px;
+    width: 523px;
+    text-align: center;
+}
+
+.smoll_box_4 {
+    width: 473px;
+    height: 381px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.smoll_box_4 h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.smoll_box_4 p {
+    width: 468px;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+
+.smoll_box_4 a {
+    margin-left: 20px;
 }
